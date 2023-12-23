@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d710541e-760a-4268-a7d8-6eb99a3b2280" name="Changes" comment="Adding unit test for bubble sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/helper/ArrayHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/helper/ArrayHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sorting/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +43,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.helper" />
       <recent name="org.example.sorting" />
+      <recent name="org.example.helper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sorting.BubbleSort" />
+  <component name="RunManager" selected="JUnit.InsertionSortTest">
+    <configuration name="BubbleSortTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sorting.*" />
+          <option name="PATTERN" value="org.example.junit.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit.sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit.sorting.BubbleSortTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,11 +94,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit.sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit.sorting.InsertionSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortTest.givenUnsortedArray_whenInsertionSort_thenSortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit.sorting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit.sorting.InsertionSortTest" />
+      <option name="METHOD_NAME" value="givenUnsortedArray_whenInsertionSort_thenSortedArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InsertionSortTest" />
+        <item itemvalue="JUnit.InsertionSortTest.givenUnsortedArray_whenInsertionSort_thenSortedArray" />
+        <item itemvalue="JUnit.BubbleSortTest (1)" />
         <item itemvalue="JUnit.BubbleSortTest" />
         <item itemvalue="JUnit.BubbleSortTest.bubbleSort_EightIntegerArray" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703284566180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding unit test for bubble sort">
+      <created>1703330060303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703330060303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
